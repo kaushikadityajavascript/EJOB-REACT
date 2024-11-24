@@ -1,9 +1,11 @@
 import './App.css'
+import CardLayout from './components/cards/Parent';
 
-import FormValid from './components/FormValidation/FormValid';
+// import FormValid from './components/FormValidation/FormValid';
 // import Status from './components/Status';
 // import Footer from './components/footer';
 // import Header from './components/Header'
+// import CrudOperation from './components/CRUD/CrudOperation';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       {/* <Parent />  */}
       {/* <Parent1/> */}
       {/* <Parent2/> */}
-      <FormValid/>
+      {/* <FormValid/> */}
+      {/* <CrudOperation/> */}
+      <CardLayout/>
     </>
   );
 }
