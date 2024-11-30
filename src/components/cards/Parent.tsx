@@ -46,7 +46,7 @@ const CardLayout: React.FC = () => {
                                     <h4 className="card-title">{item.name}</h4>
                                     <p>{item.loc}</p>
                                     <button
-                                        className="btn btn-primary"
+                                        className="btn"
                                         onClick={()=>setSelectedCard(item)}
                                     >Show Details</button>
                                 </div>
