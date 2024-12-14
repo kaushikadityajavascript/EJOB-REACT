@@ -20,6 +20,8 @@ const GetUserDetails = () => {
         axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`).then((res) => { setSelectedUser(res.data) });
     }
 
+    
+
     return (
         <>
         <div className="container">
